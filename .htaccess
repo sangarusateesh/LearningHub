@@ -1,0 +1,30 @@
+Options +FollowSymLinks -MultiViews
+RewriteEngine on
+
+# non www to www
+#RewriteCond %{HTTP_HOST} !^www\.
+#RewriteRule ^(.*)$ https://www.%{HTTP_HOST}/$1 [R=301,L]
+
+# below 2 lines are only for ssl
+#RewriteCond %{HTTPS} off
+#RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+#ErrorDocument 404 https://www.jsconstructions.co.in/demo/404.html
+#ErrorDocument 404 http://localhost/jsconstructions/404.html
+
+RewriteRule ^controller$ ajax/controller.php
+RewriteRule ^mailController$ ajax/mailController.php
+RewriteRule ^list-([a-z]+)$ ajax/list-$1.php
+RewriteRule ^change-password/([0-9]+)$ change-password.php?id=$1
+RewriteRule ^logout$ ajax/logout.php
+RewriteRule ^update-profile$ users.php?action=profile
+RewriteRule ^404.html$ 404.php
+
+RewriteRule ^employees-([0-9]+).html$ employees.php?page=$1
+RewriteRule ^users-([0-9]+).html$ users.php?page=$1 [L,QSA]
+RewriteRule ^daily_updates-([0-9]+).html$ daily_updates.php?page=$1
+
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+#php_value upload_max_filesize 25M
+#php_value post_max_size 50M

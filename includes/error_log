@@ -1,0 +1,23 @@
+[23-Aug-2023 23:56:01 Asia/Kolkata] actioning: loginForm
+[23-Aug-2023 23:56:01 Asia/Kolkata] response:: array :: {"status":"OK","redirect":"http:\/\/localhost\/progress\/profile.php"}
+[24-Aug-2023 00:14:44 Asia/Kolkata] actioning: loginForm
+[24-Aug-2023 00:14:44 Asia/Kolkata] response:: array :: {"status":"OK","redirect":"http:\/\/192.168.79.28\/progress\/profile.php"}
+[24-Aug-2023 00:15:37 Asia/Kolkata] actioning: loginForm
+[24-Aug-2023 00:15:37 Asia/Kolkata] response:: array :: {"error":"Sorry You're not registered withus."}
+[24-Aug-2023 00:18:19 Asia/Kolkata] actioning: loginForm
+[24-Aug-2023 00:18:19 Asia/Kolkata] response:: array :: {"status":"OK","redirect":"http:\/\/localhost\/progress\/profile.php"}
+[24-Aug-2023 00:18:21 Asia/Kolkata] select SQL_CALC_FOUND_ROWS * from users  where id!='3' and  status='1'   order by id desc  limit 0,10
+[24-Aug-2023 00:18:34 Asia/Kolkata] select SQL_CALC_FOUND_ROWS * from users  where id!='3' and  status='1'   order by id desc  limit 0,10
+[24-Aug-2023 00:18:39 Asia/Kolkata] select SQL_CALC_FOUND_ROWS * from users  where id!='3' and  status='0'   order by id desc  limit 0,10
+[24-Aug-2023 00:18:56 Asia/Kolkata] select SQL_CALC_FOUND_ROWS * from users  where id!='3' and  status='1'   order by id desc  limit 0,10
+[24-Aug-2023 00:19:01 Asia/Kolkata] select SQL_CALC_FOUND_ROWS * from users  where id!='3' and  status='0'   order by id desc  limit 0,10
+[24-Aug-2023 00:19:08 Asia/Kolkata] select SQL_CALC_FOUND_ROWS * from users  where id!='3' and  status='1'   order by id desc  limit 0,10
+[24-Aug-2023 00:19:51 Asia/Kolkata] select SQL_CALC_FOUND_ROWS * from users  where id!='3' and  status='1'   order by id desc  limit 0,10
+[24-Aug-2023 00:19:53 Asia/Kolkata] select SQL_CALC_FOUND_ROWS * from users  where id!='3' and  status='1'   order by id desc  limit 0,10
+[24-Aug-2023 00:19:53 Asia/Kolkata] select SQL_CALC_FOUND_ROWS * from users  where id!='3' and  status='1'   order by id desc  limit 0,10
+[24-Aug-2023 14:58:19 Asia/Kolkata] select SQL_CALC_FOUND_ROWS * from employees  where  status='1'    order by id desc  limit 0,10
+[24-Aug-2023 14:58:20 Asia/Kolkata] select SQL_CALC_FOUND_ROWS * from users  where id!='3' and  status='1'   order by id desc  limit 0,10
+[24-Aug-2023 14:58:27 Asia/Kolkata] select SQL_CALC_FOUND_ROWS * from users  where id!='3' and  status='1'   order by id desc  limit 10,10
+[24-Aug-2023 14:58:41 Asia/Kolkata] select SQL_CALC_FOUND_ROWS * from users  where id!='3' and  status='1'   order by id desc  limit 10,10
+[24-Aug-2023 14:58:46 Asia/Kolkata] select SQL_CALC_FOUND_ROWS * from users  where id!='3' and  status='1'   order by id desc  limit 0,10
+[24-Aug-2023 14:59:18 Asia/Kolkata] select SQL_CALC_FOUND_ROWS * from users  where id!='3' and  status='1'   order by id desc  limit 10,10

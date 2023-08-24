@@ -1,0 +1,22 @@
+		Task Details
+
+project Name: Systemtask
+
+Steps for installing this task
+
+1.extract the finded zip file in the htdcos
+2.Create Database with name "globetask" and import the globetask.sql file in local
+3.Run the task in web browser with this url : localhost/Systemtask
+4.user sample credentials:
+	4.1. For Super Admin
+		email:superadmin@gmail.com
+		password:1212
+	4.2. For Admin 
+		email:admin@gmail.com
+		password:1212
+	4.3. For sample user
+		email:sangaru.satti@gmail.com
+		password:1212
+	note:if you done the forgot password theafter change the password in Db manually.(in password changing time use md5 convertion).
+5.this task have 9 pages for managing the data ans showing the data.
+
